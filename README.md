@@ -5,7 +5,7 @@
 对于UIButton:  <br />
 +(UIButton *)butonWithFrame:(CGRect)frame buttonType:(UIButtonType)type text:(NSString*)text textFont:(CGFloat)fontSize textColor:(UIColor *)textColor
 
-然后还对AFNetwork封装一层，通过block直接回调返回失败，成功的方法，代码如下：  <br />
+然后还对AFNetwork3.0封装一层，通过block直接回调返回失败，成功的方法，代码如下：  <br />
 
 //成功回调  <br />
 typedef void (^success)(NSURLSessionDataTask *task, id responseObject);
