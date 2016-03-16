@@ -1,5 +1,5 @@
 # YTKit
-对于某一个UI控件可以使用便利构造器，采用类别的方式封装了一层，例如，对于UILabel:
+对于某一个UI控件可以使用便利构造器，采用类别的方式封装了一层，例如，对于UILabel   <br /> :
 +(UILabel *)labelWithFrame:(CGRect)labelFrame text:(NSString *)text font:(CGFloat)font textColor:(UIColor *)textColor textAlignment:(NSTextAlignment)labelAlignment
 对于UIButton:
 +(UIButton *)butonWithFrame:(CGRect)frame buttonType:(UIButtonType)type text:(NSString*)text textFont:(CGFloat)fontSize textColor:(UIColor *)textColor
