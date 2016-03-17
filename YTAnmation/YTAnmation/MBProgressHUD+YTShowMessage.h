@@ -8,6 +8,12 @@
 
 #import "MBProgressHUD.h"
 
+
 @interface MBProgressHUD (YTShowMessage)
+
+//显示：文字,图片,mode样式
+
++(MBProgressHUD *)showMessage:(NSString *)message customView:(UIView *)customView mode:(MBProgressHUDMode)modeStyle toView:(UIView *)toView;
+
 
 @end

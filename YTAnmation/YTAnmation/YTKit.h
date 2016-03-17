@@ -9,5 +9,9 @@
 #ifndef YTKit_h
 #define YTKit_h
 
+#import "MBProgressHUD+YTShowMessage.h"
+#import "UILabel+YTLabel.h"
+#import "UIButton+YTButton.h"
+
 
 #endif /* YTKit_h */
